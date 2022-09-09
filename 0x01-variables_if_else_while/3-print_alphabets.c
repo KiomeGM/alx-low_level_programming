@@ -4,6 +4,10 @@
 
 int main()
 {
+	/*
+	 * program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+	 */
+
 	int x = 0;
 	int y = 0;
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
