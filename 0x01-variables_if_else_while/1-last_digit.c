@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - compares last digit of a number with 5
  *
  * Description: extracts last digit from a randomly

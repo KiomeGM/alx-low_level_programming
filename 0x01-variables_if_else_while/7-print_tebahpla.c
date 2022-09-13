@@ -2,7 +2,7 @@
 #include <ctype.h>
 #include <string.h>
 
-/*
+/**
  * main - prints the lowercase alphabet in reverse, followed by a new line.
  *
  * Description: prints starting from the last value in the char variable,

@@ -2,13 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - Check if a number is less than, equal to, or more than 0
- * @parameterx: no parameter
+ * @void: void
  *
  * Description: a random number is generated,
- *      and then checked against 0 to determine
- *      positivity
+ * and then checked against 0 to determine
+ * positivity
  * Return: returns void
 */
 int main(void)
