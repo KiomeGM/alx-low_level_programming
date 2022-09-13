@@ -3,12 +3,11 @@
 #include <stdio.h>
 
 /*
- * main - Check if a number is less than, equal to, or more than zero
+ * main - Check if a number is less than, equal to, or more than 0
  * @parameterx: no parameter
 
  * Return: returns void
 */
-
 int main(void)
 {
 

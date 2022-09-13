@@ -2,9 +2,10 @@
 #include <ctype.h>
 
 /*
- * main - prints all the numbers of base 16 in lowercase, followed by a new line.
+ * main - prints all the numbers of base 16 in lowercase,
+ * followed by a new line.
  */
-int main()
+int main(void)
 {
 	int x = 0;
 	char alpha[] = "0123456789ABCDEF";

@@ -2,9 +2,10 @@
 #include <ctype.h>
 
 /*
- * main - prints the alphabet in lowercase, followed by a new line, while eliminating two letters
+ * main - prints the alphabet in lowercase, followed by a new line,
+ * while eliminating two letters
  */
-int main()
+int main(void)
 {
 	int x = 0;
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

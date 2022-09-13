@@ -5,7 +5,7 @@
 /*
  * main - prints the lowercase alphabet in reverse, followed by a new line.
  */
-int main()
+int main(void)
 {
 	int x = 25;
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";

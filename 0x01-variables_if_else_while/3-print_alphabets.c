@@ -3,9 +3,10 @@
 #include <string.h>
 
 /*
- * main - prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ * main - prints the alphabet in lowercase, and then in uppercase,
+ * followed by a new line.
  */
-int main()
+int main(void)
 {
 	int x = 0;
 	int y = 0;
