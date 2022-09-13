@@ -9,6 +9,7 @@
  *      which accepts only char values.
  *      Done through concatanating a string '0'
  *      to the variable containing the integer.
+ * Return: returns void
  */
 int main(void)
 {

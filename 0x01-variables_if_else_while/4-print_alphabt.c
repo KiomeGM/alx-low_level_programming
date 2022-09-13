@@ -8,6 +8,7 @@
  * Description: filter through the text, thereby eliminating a provided
  *      list of text from the initial text, and then converting them to
  *      to lowercase and then outputting it
+ * Return: returns void
  */
 int main(void)
 {

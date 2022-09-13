@@ -7,7 +7,8 @@
  * followed by a new line.
  *
  * Description: uses tolower() to convert upper text to lower
- * and then outputs both te upper and lower texts
+ * and then outputs both the upper and lower texts
+ * Return: returns void
  */
 int main(void)
 {

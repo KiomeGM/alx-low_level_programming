@@ -6,6 +6,7 @@
  *      followed by a new line.
  *
  * Description: uses a for loop to iterate through 0 to 9 and printing them
+ * Return: returns void
  */
 int main(void)
 {

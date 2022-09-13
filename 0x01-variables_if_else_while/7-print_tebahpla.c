@@ -8,6 +8,7 @@
  * Description: prints starting from the last value in the char variable,
  *          using the index of the values
  *          and decreasing the index in each iteration
+ * Return: returns void
  */
 int main(void)
 {

@@ -7,6 +7,7 @@
  *
  * Description: uses tolower() function to convert upper alpha to lower
  * using a while loop to iterate over the alphas in the array
+ * Return: returns void
  */
 int main(void)
 {

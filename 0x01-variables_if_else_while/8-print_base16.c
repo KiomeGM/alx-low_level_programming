@@ -6,6 +6,7 @@
  * followed by a new line.
  *
  * Description: converts upper case characters into lowercase
+ * Return: returns void
  */
 int main(void)
 {
