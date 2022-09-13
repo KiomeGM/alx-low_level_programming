@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <ctype.h>
+
+/*
+ * main - prints the alphabet in lowercase, followed by a new line, while eliminating two letters
+ */
 int main()
 {
-	/*
-	 * a program that prints the alphabet in lowercase, followed by a new line, while eliminating two letters
-	 */
-
 	int x = 0;
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	
+
 	while (alpha[x])
 	{
 		if (alpha[x] == 'e')
@@ -16,7 +16,7 @@ int main()
 			x++;
 		}
 		else if (alpha[x] == 'q')
-		{	
+		{
 			x++;
 		}
 		else
@@ -25,6 +25,7 @@ int main()
 			x++;
 		}
 	}
+
 	putchar ('\n');
 	return (0);
 }

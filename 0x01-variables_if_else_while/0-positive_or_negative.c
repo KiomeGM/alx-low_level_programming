@@ -1,14 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
+/*
+ * main - Check if a number is less than, equal to, or more than zero
+ * @parameterx: no parameter
+
+ * Return: returns void
+*/
+
 int main(void)
 {
-	/*
-	 * This program will check if a number is less than, equal to, or more than zero
-	 */
+
 	int n;
 
 	srand(time(0));

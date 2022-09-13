@@ -2,15 +2,15 @@
 #include <ctype.h>
 #include <string.h>
 
+/*
+ * main - prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+ */
 int main()
 {
-	/*
-	 * program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
-	 */
-
 	int x = 0;
 	int y = 0;
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 	while (alpha[x])
 	{
 		putchar(tolower(alpha[x]));
@@ -24,6 +24,5 @@ int main()
 	}
 
 	putchar ('\n');
-
 	return (0);
 }
