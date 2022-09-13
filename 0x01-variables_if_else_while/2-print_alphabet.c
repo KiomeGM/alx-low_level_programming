@@ -9,6 +9,7 @@ int main(void)
 {
 	int x = 0;
 	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
 	while (alpha[x])
 	{
 		putchar(tolower(alpha[x]));
