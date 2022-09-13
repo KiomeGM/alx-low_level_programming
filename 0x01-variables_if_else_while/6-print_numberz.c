@@ -3,7 +3,12 @@
 
 /*
  * main - prints all single digit numbers of base 10 starting from 0,
- * followed by a new line.
+ *      followed by a new line.
+ *
+ * Description: outputting integer values through putchar
+ *      which accepts only char values.
+ *      Done through concatanating a string '0'
+ *      to the variable containing the integer.
  */
 int main(void)
 {

@@ -4,6 +4,9 @@
 /*
  * main - convert upper case letters to lowercase
  * and then output one by one using while loop and putchar()
+ *
+ * Description: uses tolower() function to convert uppoer alpha to lower
+ * using a while loop to iterate over the alphas
  */
 int main(void)
 {

@@ -4,6 +4,8 @@
 /*
  * main - prints all the numbers of base 16 in lowercase,
  * followed by a new line.
+ *
+ * Description: converts upper case characters into lowercase
  */
 int main(void)
 {

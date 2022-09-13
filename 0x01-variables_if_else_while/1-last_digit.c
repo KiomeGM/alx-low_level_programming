@@ -4,6 +4,9 @@
 
 /*
  * main - compares last digit of a number with 5
+ *
+ * Description: extracts last digit from a randomly
+ * generated number and then checks it against some conditions
  */
 int main(void)
 {
