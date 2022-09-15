@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - program that prints _putchar
+ * _putchar - program that prints _putchar
  * @void: no input
  *
  * Description: this program uses printf
  * Return: returns void
  */
- int main (void)
+ int _putchar(void)
  {
      printf("_putchar\n")
 
