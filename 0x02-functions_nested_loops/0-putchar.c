@@ -3,7 +3,7 @@
 
 /**
  * main - program that prints _putchar
- * @void - no input
+ * @void: no input
  *
  * Description: this program uses printf
  * Return: returns void

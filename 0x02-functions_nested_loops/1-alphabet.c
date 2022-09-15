@@ -1,5 +1,4 @@
-#include stdio.h
-#include stdlib.h
+#include "main.h"
 
 /**
  * print_alphabet - prints the alphabet in lowercase
@@ -26,8 +25,3 @@
   * Description: the print_alphabet function outputs lowercase alphabets
   * Return: always 0
   */
- int main(void)
- {
-     print_alphabet();
-     return (0);
- }
