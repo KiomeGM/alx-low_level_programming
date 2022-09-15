@@ -8,11 +8,7 @@
  * Description: this program uses printf
  * Return: returns void
  */
- int _putchar(char c)
- {
-     c = "_putchar";
-
-     printf("%s\n", s);
-
-     return (0)
- }
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
