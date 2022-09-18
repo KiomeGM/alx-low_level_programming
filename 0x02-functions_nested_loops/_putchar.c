@@ -1,7 +1,7 @@
 #include <unistd.h>
 
 /**
- * _putchar - program that prints _putchar
+ * _putchar - program that initialises char printing
  * @c: parameter of type char
  *
  * Description: this program uses printf
