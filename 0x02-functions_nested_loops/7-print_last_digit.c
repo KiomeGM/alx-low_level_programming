@@ -1,17 +1,15 @@
 #include "main.h"
-
 /**
- * print_last_digit - prints the last digit of a number
- * @n: parameter of integer type
- *
- * Description: utilizes modulo
- * Return: Always 0
- */
+*print_last_digit - function that print last digit of a number
+*@n: number to be targeted
+*Return: returns 0
+*/
 int print_last_digit(int n)
 {
-    int n;
+int lastdigit = n % 10;
+if (lastdigit < 0)
+lastdigit *= -1;
 
-    putchar(n%10);
-    return (0);
+_putchar (lastdigit + '0');
+return (lastdigit);
 }
-

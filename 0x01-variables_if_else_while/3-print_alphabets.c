@@ -1,33 +1,28 @@
 #include <stdio.h>
 #include <ctype.h>
-#include <string.h>
-
 /**
- * main - prints the alphabet in lowercase, and then in uppercase,
- * followed by a new line.
- *
- * Description: uses tolower() to convert upper text to lower
- * and then outputs both the upper and lower texts
- * Return: returns void
- */
+*main - Program to print alphabet letters in all cases followed by new line
+*
+*Return: return 0
+*/
 int main(void)
 {
-	int x = 0;
-	int y = 0;
-	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int letter;
 
-	while (alpha[x])
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(tolower(alpha[x]));
-		x++;
+		letter = tolower(letter);
+		putchar(letter);
+		if (letter == 'z')
+		{
+			letter = 'A';
+			for (; letter <= 'Z'; letter++)
+			{
+				putchar(letter);
+			}
+			break;
+		}
 	}
-
-	while (alpha[y])
-	{
-		putchar(alpha[y]);
-		y++;
-	}
-
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }

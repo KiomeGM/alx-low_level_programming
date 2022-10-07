@@ -1,13 +1,21 @@
-#include <unistd.h>
+#include "main.h"
 
 /**
- * _putchar - program that prints _putchar
- * @c: parameter of type char
- *
- * Description: this program uses printf
- * Return: returns void
- */
-int _putchar(char c)
+* main - function prints text as output
+*
+* Description:
+* Return:return 0
+*/
+int main(void)
 {
-	return (write(1, &c, 1));
+	char sch[10] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(sch[i]);
+	}
+
+	_putchar(10);
+	return (0);
 }

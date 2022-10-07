@@ -1,37 +1,22 @@
 #include <stdio.h>
 #include <ctype.h>
-
 /**
- * main - prints the alphabet in lowercase, followed by a new line,
- * while eliminating two letters
- *
- * Description: filter through the text, thereby eliminating a provided
- *      list of text from the initial text, and then converting them to
- *      to lowercase and then outputting it
- * Return: returns void
- */
+*main - Program to print alphabet letters except q and e followed by new line
+*
+*Return: return 0
+*/
 int main(void)
 {
-	int x = 0;
-	char alpha[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int letter;
 
-	while (alpha[x])
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		if (alpha[x] == 'e')
+		if (letter == 'q' || letter == 'e')
 		{
-			x++;
+			continue;
 		}
-		else if (alpha[x] == 'q')
-		{
-			x++;
-		}
-		else
-		{
-			putchar(tolower(alpha[x]));
-			x++;
-		}
+		putchar(letter);
 	}
-
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }

@@ -1,24 +1,27 @@
 #include <stdio.h>
 #include <ctype.h>
-
 /**
- * main - prints all the numbers of base 16 in lowercase,
- * followed by a new line.
- *
- * Description: converts upper case characters into lowercase
- * Return: returns void
- */
+*main - Prints all single digits of base 16 followed by new line
+*
+*Return: returns 0
+*/
 int main(void)
 {
-	int x = 0;
-	char alpha[] = "0123456789ABCDEF";
+	int digit;
 
-	while (alpha[x])
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-		putchar(tolower(alpha[x]));
-		x++;
+		putchar(digit);
+		if (digit == '9')
+		{
+			digit = 'a';
+			for (; digit <= 'f'; digit++)
+			{
+				putchar(digit);
+			}
+			break;
+		}
 	}
-
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }

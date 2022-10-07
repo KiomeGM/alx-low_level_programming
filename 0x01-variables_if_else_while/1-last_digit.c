@@ -1,34 +1,34 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
-
 /**
- * main - compares last digit of a number with 5
- *
- * Description: extracts last digit from a randomly
- * generated number and then checks it against some conditions
- * Return: returns void
- */
+*main - Prints the last digit of random number
+*
+*Return: Return 0
+*/
 int main(void)
 {
 	int n;
-	int lastDigit;
+	int last;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	lastDigit = n % 10;
-	if (lastDigit > 5)
+	last = n % 10;
+
+	if (last == 0)
 	{
-		printf("Last digit of %d is %d and is greater than 5\n", n, lastDigit);
+		printf("Last digit of %d is %d and is 0\n", n, last);
 	}
-	else if (lastDigit == 0)
+	else
 	{
-		printf("Last digit of %d is %d and is 0\n", n, lastDigit);
-	}
-	else if (lastDigit < 6 && lastDigit != 0)
-	{
-		printf("Last digit of %d is %d and is less than 6 ", n, lastDigit);
-        printf("and not 0\n");
+		if (last > 5)
+		{
+			printf("Last digit of %d is %d and is greater than 5\n", n, last);
+		}
+		else if (last < 6)
+		{
+			printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last);
+		}
 	}
 	return (0);
 }

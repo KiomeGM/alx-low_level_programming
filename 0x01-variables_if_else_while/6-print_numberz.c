@@ -1,25 +1,18 @@
 #include <stdio.h>
-#include <math.h>
-
+#include <ctype.h>
 /**
- * main - prints all single digit numbers of base 10 starting from 0,
- *      followed by a new line.
- *
- * Description: outputting integer values through putchar
- *      which accepts only char values.
- *      Done through concatanating a string '0'
- *      to the variable containing the integer.
- * Return: returns void
- */
+*main - Prints all single digits of base 10 followed by new line
+*
+*Return: returns 0
+*/
 int main(void)
 {
-	int a;
+	int digit;
 
-	for (a = 0; a < 10; a++)
+	for (digit = '0'; digit <= '9'; digit++)
 	{
-		putchar(a + '0');
+		putchar(digit);
 	}
-
 	putchar('\n');
 	return (0);
 }
